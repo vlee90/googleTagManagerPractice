@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UILabel *titleTextLabel;
+
 @end
 
 @implementation ViewController
