@@ -23,7 +23,7 @@
 		EB86C5671A8D59C400015AAD /* libAdIdAccess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB86C5651A8D59C400015AAD /* libAdIdAccess.a */; };
 		EB86C5681A8D59C400015AAD /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB86C5661A8D59C400015AAD /* libGoogleAnalyticsServices.a */; };
 		EB86C56A1A8D59F100015AAD /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB86C5691A8D59F100015AAD /* libGoogleAnalyticsServices.a */; };
-		EB86C56D1A8D6DE700015AAD /* GTM-PZRMWZ_v1 in Resources */ = {isa = PBXBuildFile; fileRef = EB86C56C1A8D6DE700015AAD /* GTM-PZRMWZ_v1 */; };
+		EB86C56D1A8D6DE700015AAD /* GTM-PZRMWZ in Resources */ = {isa = PBXBuildFile; fileRef = EB86C56C1A8D6DE700015AAD /* GTM-PZRMWZ */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +60,7 @@
 		EB86C5661A8D59C400015AAD /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = ../../../Downloads/GoogleAnalyticsServicesiOS_3.10/libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
 		EB86C5691A8D59F100015AAD /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
 		EB86C56B1A8D5A0D00015AAD /* TAGManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGManager.h; sourceTree = "<group>"; };
-		EB86C56C1A8D6DE700015AAD /* GTM-PZRMWZ_v1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTM-PZRMWZ_v1"; sourceTree = "<group>"; };
+		EB86C56C1A8D6DE700015AAD /* GTM-PZRMWZ */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTM-PZRMWZ"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +133,7 @@
 		EB86C5241A8D431D00015AAD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EB86C56C1A8D6DE700015AAD /* GTM-PZRMWZ_v1 */,
+				EB86C56C1A8D6DE700015AAD /* GTM-PZRMWZ */,
 				EB86C56B1A8D5A0D00015AAD /* TAGManager.h */,
 				EB86C5691A8D59F100015AAD /* libGoogleAnalyticsServices.a */,
 				EB86C5251A8D431D00015AAD /* Info.plist */,
@@ -241,7 +241,7 @@
 			files = (
 				EB86C5331A8D431D00015AAD /* Main.storyboard in Resources */,
 				EB86C5381A8D431D00015AAD /* LaunchScreen.xib in Resources */,
-				EB86C56D1A8D6DE700015AAD /* GTM-PZRMWZ_v1 in Resources */,
+				EB86C56D1A8D6DE700015AAD /* GTM-PZRMWZ in Resources */,
 				EB86C5351A8D431D00015AAD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
