@@ -15,6 +15,14 @@
 		EB86C5351A8D431D00015AAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB86C5341A8D431D00015AAD /* Images.xcassets */; };
 		EB86C5381A8D431D00015AAD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB86C5361A8D431D00015AAD /* LaunchScreen.xib */; };
 		EB86C5441A8D431D00015AAD /* GoogleTagManagerPracticeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB86C5431A8D431D00015AAD /* GoogleTagManagerPracticeAppTests.m */; };
+		EB86C55C1A8D598B00015AAD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB86C55B1A8D598B00015AAD /* CoreData.framework */; };
+		EB86C55E1A8D599600015AAD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB86C55D1A8D599600015AAD /* SystemConfiguration.framework */; };
+		EB86C5601A8D599F00015AAD /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EB86C55F1A8D599F00015AAD /* libz.dylib */; };
+		EB86C5621A8D59AA00015AAD /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EB86C5611A8D59AA00015AAD /* libsqlite3.dylib */; };
+		EB86C5641A8D59B800015AAD /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB86C5631A8D59B800015AAD /* AdSupport.framework */; };
+		EB86C5671A8D59C400015AAD /* libAdIdAccess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB86C5651A8D59C400015AAD /* libAdIdAccess.a */; };
+		EB86C5681A8D59C400015AAD /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB86C5661A8D59C400015AAD /* libGoogleAnalyticsServices.a */; };
+		EB86C56A1A8D59F100015AAD /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB86C5691A8D59F100015AAD /* libGoogleAnalyticsServices.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +50,15 @@
 		EB86C53D1A8D431D00015AAD /* GoogleTagManagerPracticeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleTagManagerPracticeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB86C5421A8D431D00015AAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB86C5431A8D431D00015AAD /* GoogleTagManagerPracticeAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleTagManagerPracticeAppTests.m; sourceTree = "<group>"; };
+		EB86C55B1A8D598B00015AAD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EB86C55D1A8D599600015AAD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EB86C55F1A8D599F00015AAD /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		EB86C5611A8D59AA00015AAD /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		EB86C5631A8D59B800015AAD /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		EB86C5651A8D59C400015AAD /* libAdIdAccess.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAdIdAccess.a; path = ../../../Downloads/GoogleAnalyticsServicesiOS_3.10/libAdIdAccess.a; sourceTree = "<group>"; };
+		EB86C5661A8D59C400015AAD /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = ../../../Downloads/GoogleAnalyticsServicesiOS_3.10/libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		EB86C5691A8D59F100015AAD /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		EB86C56B1A8D5A0D00015AAD /* TAGManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +66,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB86C5671A8D59C400015AAD /* libAdIdAccess.a in Frameworks */,
+				EB86C5681A8D59C400015AAD /* libGoogleAnalyticsServices.a in Frameworks */,
+				EB86C5641A8D59B800015AAD /* AdSupport.framework in Frameworks */,
+				EB86C56A1A8D59F100015AAD /* libGoogleAnalyticsServices.a in Frameworks */,
+				EB86C5621A8D59AA00015AAD /* libsqlite3.dylib in Frameworks */,
+				EB86C5601A8D599F00015AAD /* libz.dylib in Frameworks */,
+				EB86C55E1A8D599600015AAD /* SystemConfiguration.framework in Frameworks */,
+				EB86C55C1A8D598B00015AAD /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +90,13 @@
 		EB86C5181A8D431D00015AAD = {
 			isa = PBXGroup;
 			children = (
+				EB86C5651A8D59C400015AAD /* libAdIdAccess.a */,
+				EB86C5661A8D59C400015AAD /* libGoogleAnalyticsServices.a */,
+				EB86C5631A8D59B800015AAD /* AdSupport.framework */,
+				EB86C5611A8D59AA00015AAD /* libsqlite3.dylib */,
+				EB86C55F1A8D599F00015AAD /* libz.dylib */,
+				EB86C55D1A8D599600015AAD /* SystemConfiguration.framework */,
+				EB86C55B1A8D598B00015AAD /* CoreData.framework */,
 				EB86C5231A8D431D00015AAD /* GoogleTagManagerPracticeApp */,
 				EB86C5401A8D431D00015AAD /* GoogleTagManagerPracticeAppTests */,
 				EB86C5221A8D431D00015AAD /* Products */,
@@ -99,6 +131,8 @@
 		EB86C5241A8D431D00015AAD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EB86C56B1A8D5A0D00015AAD /* TAGManager.h */,
+				EB86C5691A8D59F100015AAD /* libGoogleAnalyticsServices.a */,
 				EB86C5251A8D431D00015AAD /* Info.plist */,
 				EB86C5261A8D431D00015AAD /* main.m */,
 			);
@@ -351,6 +385,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GoogleTagManagerPracticeApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/owner/Downloads/GoogleAnalyticsServicesiOS_3.10,
+					"$(PROJECT_DIR)/GoogleTagManagerPracticeApp",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -361,6 +400,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GoogleTagManagerPracticeApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/owner/Downloads/GoogleAnalyticsServicesiOS_3.10,
+					"$(PROJECT_DIR)/GoogleTagManagerPracticeApp",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -418,6 +462,7 @@
 				EB86C5491A8D431D00015AAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB86C54A1A8D431D00015AAD /* Build configuration list for PBXNativeTarget "GoogleTagManagerPracticeAppTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +471,7 @@
 				EB86C54C1A8D431D00015AAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
