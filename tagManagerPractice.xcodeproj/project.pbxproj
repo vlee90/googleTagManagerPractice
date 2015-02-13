@@ -15,6 +15,14 @@
 		EB4AFB291A8E7A9900FE1F16 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4AFB281A8E7A9900FE1F16 /* Images.xcassets */; };
 		EB4AFB2C1A8E7A9900FE1F16 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB4AFB2A1A8E7A9900FE1F16 /* LaunchScreen.xib */; };
 		EB4AFB381A8E7A9900FE1F16 /* tagManagerPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4AFB371A8E7A9900FE1F16 /* tagManagerPracticeTests.m */; };
+		EB4AFB481A8E7BA200FE1F16 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4AFB471A8E7BA200FE1F16 /* CoreData.framework */; };
+		EB4AFB4A1A8E7BAF00FE1F16 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4AFB491A8E7BAF00FE1F16 /* SystemConfiguration.framework */; };
+		EB4AFB4C1A8E7BB800FE1F16 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4AFB4B1A8E7BB800FE1F16 /* libz.dylib */; };
+		EB4AFB4E1A8E7BBE00FE1F16 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4AFB4D1A8E7BBE00FE1F16 /* libsqlite3.dylib */; };
+		EB4AFB501A8E7BD300FE1F16 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4AFB4F1A8E7BD300FE1F16 /* libGoogleAnalyticsServices.a */; };
+		EB4AFB521A8E7BE300FE1F16 /* libAdIdAccess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4AFB511A8E7BE300FE1F16 /* libAdIdAccess.a */; };
+		EB4AFB541A8E7BF000FE1F16 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4AFB531A8E7BF000FE1F16 /* AdSupport.framework */; };
+		EB4AFB561A8E7CAE00FE1F16 /* GTM-PBKB8J in Resources */ = {isa = PBXBuildFile; fileRef = EB4AFB551A8E7CAE00FE1F16 /* GTM-PBKB8J */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +50,19 @@
 		EB4AFB311A8E7A9900FE1F16 /* tagManagerPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tagManagerPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB4AFB361A8E7A9900FE1F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB4AFB371A8E7A9900FE1F16 /* tagManagerPracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tagManagerPracticeTests.m; sourceTree = "<group>"; };
+		EB4AFB421A8E7B8D00FE1F16 /* TAGContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGContainer.h; sourceTree = "<group>"; };
+		EB4AFB431A8E7B8D00FE1F16 /* TAGContainerOpener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGContainerOpener.h; sourceTree = "<group>"; };
+		EB4AFB441A8E7B8D00FE1F16 /* TAGDataLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGDataLayer.h; sourceTree = "<group>"; };
+		EB4AFB451A8E7B8D00FE1F16 /* TAGLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGLogger.h; sourceTree = "<group>"; };
+		EB4AFB461A8E7B8D00FE1F16 /* TAGManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGManager.h; sourceTree = "<group>"; };
+		EB4AFB471A8E7BA200FE1F16 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EB4AFB491A8E7BAF00FE1F16 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EB4AFB4B1A8E7BB800FE1F16 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		EB4AFB4D1A8E7BBE00FE1F16 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		EB4AFB4F1A8E7BD300FE1F16 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = ../../../Downloads/GoogleAnalyticsServicesiOS_3.10/libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		EB4AFB511A8E7BE300FE1F16 /* libAdIdAccess.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAdIdAccess.a; path = ../../../Downloads/GoogleAnalyticsServicesiOS_3.10/libAdIdAccess.a; sourceTree = "<group>"; };
+		EB4AFB531A8E7BF000FE1F16 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		EB4AFB551A8E7CAE00FE1F16 /* GTM-PBKB8J */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GTM-PBKB8J"; path = "../../../../Downloads/GTM-PBKB8J"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +70,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB4AFB541A8E7BF000FE1F16 /* AdSupport.framework in Frameworks */,
+				EB4AFB521A8E7BE300FE1F16 /* libAdIdAccess.a in Frameworks */,
+				EB4AFB501A8E7BD300FE1F16 /* libGoogleAnalyticsServices.a in Frameworks */,
+				EB4AFB4E1A8E7BBE00FE1F16 /* libsqlite3.dylib in Frameworks */,
+				EB4AFB4C1A8E7BB800FE1F16 /* libz.dylib in Frameworks */,
+				EB4AFB4A1A8E7BAF00FE1F16 /* SystemConfiguration.framework in Frameworks */,
+				EB4AFB481A8E7BA200FE1F16 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +93,13 @@
 		EB4AFB0C1A8E7A9900FE1F16 = {
 			isa = PBXGroup;
 			children = (
+				EB4AFB531A8E7BF000FE1F16 /* AdSupport.framework */,
+				EB4AFB511A8E7BE300FE1F16 /* libAdIdAccess.a */,
+				EB4AFB4F1A8E7BD300FE1F16 /* libGoogleAnalyticsServices.a */,
+				EB4AFB4D1A8E7BBE00FE1F16 /* libsqlite3.dylib */,
+				EB4AFB4B1A8E7BB800FE1F16 /* libz.dylib */,
+				EB4AFB491A8E7BAF00FE1F16 /* SystemConfiguration.framework */,
+				EB4AFB471A8E7BA200FE1F16 /* CoreData.framework */,
 				EB4AFB171A8E7A9900FE1F16 /* tagManagerPractice */,
 				EB4AFB341A8E7A9900FE1F16 /* tagManagerPracticeTests */,
 				EB4AFB161A8E7A9900FE1F16 /* Products */,
@@ -99,6 +134,8 @@
 		EB4AFB181A8E7A9900FE1F16 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EB4AFB551A8E7CAE00FE1F16 /* GTM-PBKB8J */,
+				EB4AFB411A8E7B8D00FE1F16 /* Library */,
 				EB4AFB191A8E7A9900FE1F16 /* Info.plist */,
 				EB4AFB1A1A8E7A9900FE1F16 /* main.m */,
 			);
@@ -120,6 +157,18 @@
 				EB4AFB361A8E7A9900FE1F16 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB4AFB411A8E7B8D00FE1F16 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AFB421A8E7B8D00FE1F16 /* TAGContainer.h */,
+				EB4AFB431A8E7B8D00FE1F16 /* TAGContainerOpener.h */,
+				EB4AFB441A8E7B8D00FE1F16 /* TAGDataLayer.h */,
+				EB4AFB451A8E7B8D00FE1F16 /* TAGLogger.h */,
+				EB4AFB461A8E7B8D00FE1F16 /* TAGManager.h */,
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB4AFB271A8E7A9900FE1F16 /* Main.storyboard in Resources */,
+				EB4AFB561A8E7CAE00FE1F16 /* GTM-PBKB8J in Resources */,
 				EB4AFB2C1A8E7A9900FE1F16 /* LaunchScreen.xib in Resources */,
 				EB4AFB291A8E7A9900FE1F16 /* Images.xcassets in Resources */,
 			);
@@ -351,6 +401,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tagManagerPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/owner/Downloads/GoogleAnalyticsServicesiOS_3.10,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -361,6 +415,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tagManagerPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/owner/Downloads/GoogleAnalyticsServicesiOS_3.10,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
