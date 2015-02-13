@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "AppDelegate.h"
+//#import "AppDelegate.m"
+#import "TAGContainer.h"
 
 @interface ViewController ()
 
@@ -18,7 +21,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    TAGContainer *container = appDelegate.container;
+    
+    NSString *titleText = [container stringForKey:@"titleText"];
+    
+    self.titleTextLabel.text = titleText;
+    
+    NSString *subtitle = [container stringForKey:@"Nil Key!"];
+    NSLog(@"TEST %s",[subtitle isEqualToString:@""] ? "True" : "False");
+    
+    NSLog(@"%@",[container stringForKey:@"app id"]);
 }
 
 - (void)didReceiveMemoryWarning {
